@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - Unreleased
+
+### Removed
+- **Breaking:** Removed the invalid TSO proprio keys
+  `ROBOT_FRAME_CARTESIAN_TIP_ORI` and `CAMERA_FRAME_CARTESIAN_TIP_ORI`.
+  Use `RELATIVE_PIVOT_ROLL` for the controlled scalar pivot roll.
+
 ## [0.2.2] - 2026-08-28
 
 ### Added
@@ -43,9 +50,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Libero world constants: `LiberoCamera`, `LiberoProprioKey`.
 - MetaWorld world constants: `MetaWorldCamera`, `MetaWorldProprioKey`.
 
-[Unreleased]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.2.2...HEAD
-[0.2.2]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.2.1...v0.2.2
-[0.2.1]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.2.0...v0.2.1
-[0.2.0]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.1.1...v0.2.0
-[0.1.1]: https://github.com/Lorenzo-Mazza/versatil_constants/compare/v0.1.0...v0.1.1
-[0.1.0]: https://github.com/Lorenzo-Mazza/versatil_constants/releases/tag/v0.1.0
+[Unreleased]: https://github.com/nct-tso-robotics/versatil_constants/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/nct-tso-robotics/versatil_constants/compare/v0.2.2...v0.3.0
+[0.2.2]: https://github.com/nct-tso-robotics/versatil_constants/compare/v0.2.1...v0.2.2
+[0.2.1]: https://github.com/nct-tso-robotics/versatil_constants/compare/v0.2.0...v0.2.1
+[0.2.0]: https://github.com/nct-tso-robotics/versatil_constants/compare/v0.1.1...v0.2.0
+[0.1.1]: https://github.com/nct-tso-robotics/versatil_constants/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/nct-tso-robotics/versatil_constants/releases/tag/v0.1.0

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "versatil-constants"
-version = "0.2.2"
+version = "0.3.0"
 description = "Shared domain constants for the VersatIL imitation learning ecosystem"
 readme = "README.md"
 license = "MIT"
