@@ -23,9 +23,7 @@ class TSOProprioKey(str, Enum):
     """Proprioceptive observation and action keys for the TSO testbed."""
 
     ROBOT_FRAME_CARTESIAN_TIP_POS = "proprio_robot_frame"
-    ROBOT_FRAME_CARTESIAN_TIP_ORI = "tip_ori_robot_frame"
     CAMERA_FRAME_CARTESIAN_TIP_POS = "proprio_camera_frame"
-    CAMERA_FRAME_CARTESIAN_TIP_ORI = "tip_ori_camera_frame"
     RELATIVE_PIVOT_ROLL = "relative_pivot_roll"
     GRIPPER_STATE = "gripper_state_obs"
     GRIPPER_STATE_ACTION = "gripper_state_action"
