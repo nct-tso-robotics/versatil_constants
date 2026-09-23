@@ -15,6 +15,12 @@ from versatil_constants.tso import (
     TSOObsKey,
     TSOProprioKey,
 )
+from versatil_constants.tower import (
+    TOWER_ACTION_KEYS,
+    TOWER_STATE_KEYS,
+    TowerCamera,
+    TowerProprioKey,
+)
 from versatil_constants.libero import (
     LiberoCamera,
     LiberoProprioKey,
@@ -51,5 +57,9 @@ __all__ = [
     "TSOCamera",
     "TSOObsKey",
     "TSOProprioKey",
+    "TOWER_ACTION_KEYS",
+    "TOWER_STATE_KEYS",
+    "TowerCamera",
+    "TowerProprioKey",
     "UR3ProprioKey",
 ]

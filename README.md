@@ -43,6 +43,9 @@ from versatil_constants.ur3 import UR3ProprioKey
 
 # Multimodal Ant simulation
 from versatil_constants.multimodal_ant import MultimodalAntProprioKey
+
+# TOWER simulation
+from versatil_constants.tower import TowerCamera, TowerProprioKey
 ```
 
 ## Modules
@@ -58,3 +61,4 @@ from versatil_constants.multimodal_ant import MultimodalAntProprioKey
 | `blockpush` | `BlockPushProprioKey` |
 | `ur3` | `UR3ProprioKey` |
 | `multimodal_ant` | `MultimodalAntProprioKey` |
+| `tower` | `TowerCamera`, `TowerProprioKey`, `TOWER_STATE_KEYS`, `TOWER_ACTION_KEYS` |
